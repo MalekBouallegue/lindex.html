@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Malek Bouallegue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .nav-underline { position: relative; }
+        .nav-underline.active::after { content: ''; position: absolute; bottom: -8px; left: 0; right: 0; height: 2px; background: #000; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-widest">MALEK B.</h1>
+            <div class="flex gap-8 items-center">
+                <a href="index.html" class="nav-underline text-sm font-medium hover:text-gray-600">ABOUT</a>
+                <a href="resume.html" class="nav-underline active text-sm font-medium">RESUME</a>
+                <a href="projects.html" class="nav-underline text-sm font-medium hover:text-gray-600">PROJECTS</a>
+                <a href="volunteer.html" class="nav-underline text-sm font-medium hover:text-gray-600">VOLUNTEER</a>
+                <a href="mailto:malekbouallegue44@gmail.com" class="text-sm font-medium hover:text-gray-600">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resume Content -->
+    <section class="max-w-4xl mx-auto px-6 py-20">
+        <!-- Header -->
+        <div class="mb-16">
+            <h1 class="text-5xl font-bold mb-2">MALEK BOUALLEGUE</h1>
+            <p class="text-gray-600">malekbouallegue44@gmail.com | +216 23 697 826</p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold mb-10 pb-4 border-b-2 border-gray-200">PROFESSIONAL EXPERIENCE</h3>
+            
+            <!-- Position 1: E-Commerce Intern -->
+            <div class="mb-12">
+                <div class="flex justify-between items-start mb-3">
+                    <div>
+                        <h4 class="text-xl font-bold">E-Commerce Intern</h4>
+                        <p class="text-gray-600 font-medium">Ministry of Trade and Export Development</p>
+                    </div>
+                    <span class="text-sm text-gray-500 font-medium">September 2024 - October 2024</span>
+                </div>
+                <ul class="space-y-2 text-gray-700 ml-4">
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Assisted in researching export market trends and development strategies.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Helped prepare reports on trade policies and international market opportunities.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Contributed to projects aimed at enhancing Tunisia's export capabilities.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Contributed to strategy discussions for improving market positioning.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Maintained attention to accuracy and consistency in official documentation.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Position 2: Email Marketing Analyst -->
+            <div class="mb-12">
+                <div class="flex justify-between items-start mb-3">
+                    <div>
+                        <h4 class="text-xl font-bold">Email Marketing Analyst Intern</h4>
+                        <p class="text-gray-600 font-medium">MASS Analytics</p>
+                    </div>
+                    <span class="text-sm text-gray-500 font-medium">June 2024 - August 2024</span>
+                </div>
+                <ul class="space-y-2 text-gray-700 ml-4">
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Analyzed email performance to improve engagement and conversion rates.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Suggested improvements for email content and structure.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Managed email marketing campaigns for B2B client accounts.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Worked with the growth team to refine strategies for lead generation.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Conducted A/B testing to improve engagement rates and conversions.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Gained experience in market research, audience targeting, and email content creation.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Managed and created content for social media platforms.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Designed visuals using Canva to support campaigns and increase audience engagement.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Assisted in planning and executing social media strategies tailored to local audiences.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Position 3: English Tutor -->
+            <div class="mb-12">
+                <div class="flex justify-between items-start mb-3">
+                    <div>
+                        <h4 class="text-xl font-bold">English Tutor</h4>
+                        <p class="text-gray-600 font-medium">Freelance</p>
+                    </div>
+                    <span class="text-sm text-gray-500 font-medium">August 2021 - October 2022</span>
+                </div>
+                <ul class="space-y-2 text-gray-700 ml-4">
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Conducted engaging individual English lessons for teenage students on a weekly basis.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Developed customized learning programs tailored to the proficiency levels and goals of each student.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Assisted high school students in achieving outstanding grades in English exams.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Successfully mentored over 50 students, resulting in an average test score improvement of 30%.</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <span>●</span>
+                        <span>Conducted conversation-based sessions focused on real-life communication.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="mb-16">
+            <h3 class="text-2xl font-bold mb-10 pb-4 border-b-2 border-gray-200">EDUCATION</h3>
+            
+            <div class="space-y-8">
+                <!-- Master's -->
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h4 class="text-lg font-bold">Master's Degree in TESOL</h4>
+                            <p class="text-gray-600">(Teaching English to Speakers of Other Languages)</p>
+                        </div>
+                        <span class="text-sm text-gray-500 font-medium">Expected 2027</span>
+                    </div>
+                    <p class="text-gray-700 font-medium">Faculty of Humanities and Social Sciences of Tunis (FSHST)</p>
+                </div>
+
+                <!-- Bachelor's -->
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h4 class="text-lg font-bold">Bachelor's Degree in English for Business & Communication</h4>
+                            <p class="text-gray-600">(License)</p>
+                        </div>
+                        <span class="text-sm text-gray-500 font-medium">Graduated 2025</span>
+                    </div>
+                    <p class="text-gray-700 font-medium">The Higher Institute of Applied Studies in Humanities of Tunis (ISEAHT)</p>
+                </div>
+
+                <!-- High School -->
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <div>
+                            <h4 class="text-lg font-bold">High School Degree, Honors</h4>
+                            <p class="text-gray-600">(Baccalauréat Lettres, Mention Bien)</p>
+                        </div>
+                        <span class="text-sm text-gray-500 font-medium">Graduated 2022</span>
+                    </div>
+                    <p class="text-gray-700 font-medium">Lycée Beb El-Khadra</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div>
+            <h3 class="text-2xl font-bold mb-10 pb-4 border-b-2 border-gray-200">SKILLS</h3>
+            
+            <div class="space-y-8">
+                <!-- Marketing -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Marketing</h4>
+                    <p class="text-gray-700">Copywriting • Social Media Management • Email Marketing • Campaign Optimization • A/B Testing • Client Communication • Account Coordination • SEO (Ubersuggest, Google Trends, PageSpeed Insights)</p>
+                </div>
+
+                <!-- Sales -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Sales</h4>
+                    <p class="text-gray-700">CRM (Apollo, HubSpot) • List Building • Cold Emailing • Cold Calling</p>
+                </div>
+
+                <!-- Business Intelligence -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Business Intelligence</h4>
+                    <p class="text-gray-700">Google Analytics • Data Analysis using Power BI • Excel & MassTer</p>
+                </div>
+
+                <!-- Design -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Design</h4>
+                    <p class="text-gray-700">Photoshop • Illustrator • Canva • PowerPoint • SharePoint</p>
+                </div>
+
+                <!-- Languages -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Languages</h4>
+                    <p class="text-gray-700">Arabic (Native) • English (Proficient) • French (Intermediate) • Turkish (Intermediate) • Italian</p>
+                </div>
+
+                <!-- Teaching & Communication -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Teaching & Communication</h4>
+                    <p class="text-gray-700">Speaking Fluency Coaching • Conversation Session Facilitation • LMS • Student Engagement Techniques • Confidence Building Activities</p>
+                </div>
+
+                <!-- Additional Skills -->
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Additional Skills</h4>
+                    <p class="text-gray-700">Export Market Research • International Market Strategy • Report Preparation • Project Contribution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 mt-20">
+        <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm text-gray-600">
+            <p>&copy; 2026 Malek Bouallegue. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
