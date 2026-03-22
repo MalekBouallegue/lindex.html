@@ -78,7 +78,7 @@
             <!-- Right Column - Profile Image -->
             <div class="flex justify-center">
                 <div class="w-full max-w-md grayscale-hover rounded-lg overflow-hidden shadow-2xl">
-                    <img src="about-me.jpg" alt="Malek Bouallegue" class="w-full h-auto object-cover">
+                    <img src="profile.jpg" alt="Malek Bouallegue" class="w-full h-auto object-cover">
                 </div>
             </div>
         </div>
