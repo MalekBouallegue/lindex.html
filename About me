@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malek Bouallegue - Digital Strategist & TESOL Specialist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Outfit', sans-serif; }
+        .nav-underline { position: relative; }
+        .nav-underline.active::after { content: ''; position: absolute; bottom: -8px; left: 0; right: 0; height: 2px; background: #000; }
+        .grayscale-hover { transition: filter 0.4s ease; }
+        .grayscale-hover:hover { filter: grayscale(0%); }
+        .grayscale-hover { filter: grayscale(100%); }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-widest">MALEK B.</h1>
+            <div class="flex gap-8 items-center">
+                <a href="index.html" class="nav-underline active text-sm font-medium">ABOUT</a>
+                <a href="resume.html" class="nav-underline text-sm font-medium hover:text-gray-600">RESUME</a>
+                <a href="projects.html" class="nav-underline text-sm font-medium hover:text-gray-600">PROJECTS</a>
+                <a href="volunteer.html" class="nav-underline text-sm font-medium hover:text-gray-600">VOLUNTEER</a>
+                <a href="mailto:malekbouallegue44@gmail.com" class="text-sm font-medium hover:text-gray-600">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-2 gap-12 items-center">
+            <!-- Left Column -->
+            <div>
+                <h1 class="text-6xl font-bold leading-tight mb-4">MALEK<br>BOUALLEGUE</h1>
+                
+                <!-- Contact Info -->
+                <div class="mb-8 space-y-2 text-gray-700">
+                    <p class="flex items-center gap-2">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:malekbouallegue44@gmail.com" class="hover:underline">malekbouallegue44@gmail.com</a>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fas fa-phone"></i>
+                        <span>+216 23 697 826</span>
+                    </p>
+                </div>
+
+                <!-- Summary -->
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Early-career digital marketing professional with hands-on experience in email marketing, campaign optimization, and performance analysis. Experienced in cross-functional growth meetings, client communication, and data-driven strategy development.
+                </p>
+                <p class="text-base text-gray-600 leading-relaxed mb-8">
+                    Highly motivated to expand strategic marketing skills and contribute to business growth. TESOL specialist with proven expertise in student engagement and educational transformation.
+                </p>
+
+                <!-- Social Links -->
+                <div class="flex gap-6">
+                    <a href="https://www.linkedin.com/in/malekbouallegue" target="_blank" class="text-gray-700 hover:text-blue-600 transition" title="LinkedIn">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://x.com/BouallegueMa" target="_blank" class="text-gray-700 hover:text-blue-400 transition" title="X (Twitter)">
+                        <i class="fab fa-x-twitter text-2xl"></i>
+                    </a>
+                    <a href="https://medium.com/@malekbouallegue" target="_blank" class="text-gray-700 hover:text-gray-900 transition" title="Medium">
+                        <i class="fab fa-medium text-2xl"></i>
+                    </a>
+                    <a href="https://www.quora.com/profile/Malek-Bouallegue" target="_blank" class="text-gray-700 hover:text-red-600 transition" title="Quora">
+                        <i class="fab fa-quora text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Column - Profile Image -->
+            <div class="flex justify-center">
+                <div class="w-full max-w-md grayscale-hover rounded-lg overflow-hidden shadow-2xl">
+                    <img src="about-me.jpg" alt="Malek Bouallegue" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 mt-20">
+        <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm text-gray-600">
+            <p>&copy; 2026 Malek Bouallegue. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
